@@ -10,7 +10,7 @@ The fact that the client has to constantly reconnect to the server for new infor
   
 The WebSocket Protocol is included in the Connectivity section of the HTML5 specification. It allows the creation of full-duplex, bidirectional connections between a client and a server over the web. It provides a way to create persistent, low latency connections that support transactions handled by either the client or the server. Using WebSockets, one can create truly real-time applications such as chat, collaborative document editing, stock trading applications, and multiplayer online games.
   
-image.png
+![aiseh](https://github.com/mahandas/Services.WebsocketCallback/blob/master/image1.png)
   
   
 ## Working of Websockets
@@ -19,7 +19,7 @@ The client establishes a WebSocket connection through a process known as the Web
   
 WebSocket URLs use the ws scheme. There is also wss for secure WebSocket connections which is the equivalent of HTTPS.
   
-image.png
+![aisa](https://github.com/mahandas/Services.WebsocketCallback/blob/master/image.png)
   
 Here is a simplified example of the initial request headers.
   
