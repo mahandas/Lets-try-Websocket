@@ -1,4 +1,4 @@
-# What are WebSockets?
+## What are WebSockets?
   
 The WebSocket Protocol is a widely supported open standard for developing real-time applications. Previous methods for simulating full-duplex connections were based on polling, a synchronous method wherein the client makes a request to the server to see if there is any information available. The client receives a response from the server even if there is no information available.
   
@@ -13,7 +13,7 @@ The WebSocket Protocol is included in the Connectivity section of the HTML5 spec
 image.png
   
   
-# Working of Websockets
+## Working of Websockets
   
 The client establishes a WebSocket connection through a process known as the WebSocket handshake. This process starts with the client sending a regular HTTP request to the server. An Upgrade header is included in this request that informs the server that the client wishes to establish a WebSocket connection.
   
@@ -42,46 +42,46 @@ Now that the handshake is complete the initial HTTP connection is replaced by a 
   
 At this point either party can start sending data.
   
-# WebSocket Server
+## WebSocket Server
   
 Often, a reverse proxy such as an HTTP server is used to detect WebSocket handshakes, process them, and send those clients to a real WebSocket server. The upside of this is that you can excuse your server from the clutter of handling cookies and authentication handlers. A WebSocket server can be built using many libraries across programming languages:
 
 Javascript:  
   
- Ø  Socket.io  
+ *  Socket.io  
 
- Ø  ws  
+ *  ws  
 
- Ø  WebSocket-Node  
+ *  WebSocket-Node  
   
 Ruby:  
   
- Ø  EventMachine  
+ *  EventMachine  
 
- Ø  Faye  
+ *  Faye  
  
 Python:  
   
- Ø  pyWebSocket  
+ *  pyWebSocket  
 
- Ø  tornado  
+ *  tornado  
   
 C++:  
   
- Ø  uWebSockets  
+ *  uWebSockets  
   
 C#:  
   
- Ø  Fleck  
+ *  Fleck  
   
 Java:  
   
- Ø  Jetty  
+ *  Jetty  
   
 .NET:  
   
- Ø  SuperWebSocket  
+ *  SuperWebSocket  
   
 GoLang:  
   
- Ø  Gorilla  
+ *  Gorilla  
